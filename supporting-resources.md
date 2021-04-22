@@ -15,6 +15,11 @@ The resources listed here are not essential for our day-to-day work. They provid
 - [NHS Service Manual: Accessibility Guidance](https://service-manual.nhs.uk/accessibility) (website)
 - [eBay MIND Patterns: Accessibility Patterns for the Web](http://ebay.github.io/mindpatterns/) (website)
 
+## The Guardian's accessibility community
+
+- [Accessibility is for Everyone](https://drive.google.com/file/d/1MHzb24FW82OQRUA33_LEOuuHDyXjfqeS) (video)
+- [Accessibility Hacks 2020](https://drive.google.com/file/d/1w6X65MWk18-9pDPQfhw4vW9rYSroqE6g) (video)
+
 ## Guardian articles
 
 - [Young and dyslexic? You’ve got it going on](https://www.theguardian.com/commentisfree/2015/oct/02/young-dyslexic-children-creative) (article)
