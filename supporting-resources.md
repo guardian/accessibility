@@ -26,4 +26,4 @@ The resources listed here are not essential for our day-to-day work. They provid
 
 ## Fun
 
-- [Lost in Voice](https://github.com/guardian/lost-in-voice)
+- [Lost in Voice](https://github.com/guardian/lost-in-voice) (game)

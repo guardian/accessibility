@@ -14,7 +14,7 @@ The resources in this list are extremely useful for contributors to the Guardian
 
 ### Screen reader
 
-- [Screen reading software - RNIB](https://www.rnib.org.uk/sight-loss-advice/technology-and-useful-products/technology-resource-hub-latest-facts-tips-and-guides/screen-reading-software)
+- [Screen reading software - RNIB](https://www.rnib.org.uk/sight-loss-advice/technology-and-useful-products/technology-resource-hub-latest-facts-tips-and-guides/screen-reading-software) (article)
 - [Screen reader basics: VoiceOver](https://www.youtube.com/watch?v=5R-6WvAihms) (video)
 - [Using VoiceOver to evaluate web accessibility](https://webaim.org/articles/voiceover/) (article)
 - [Basic screen reader commands for accessibility testing](https://www.tpgi.com/basic-screen-reader-commands-for-accessibility-testing/) (article)
