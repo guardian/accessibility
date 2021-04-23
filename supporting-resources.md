@@ -7,6 +7,7 @@ The resources listed here are not essential for day-to-day work. They provide in
 - [10 things I Learned about Accessibility from UK News Sites](https://dev.to/neosaurrrus/10-things-i-learned-about-accessibility-from-uk-news-sites-2ml0) (article) - Includes helpful critique of some familar Guardian UI features, among other publishers
 - [Text descriptions and emotion rich images](https://tink.uk/text-descriptions-emotion-rich-images/) (article) - The importance of alt text for images that add atmosphere to a website
 - [Scope: disability facts and figures](https://www.scope.org.uk/media/disability-facts-figures/) (article) - Statistics showing how many people identify as disabled, and an overview of some of the difficulties commonly faced by disabled people
+- [ediblecode's accessibility resources](https://github.com/ediblecode/accessibility-resources) (list) - An even longer list of resources. If you spot a link in this list that looks super useful, please raise a PR and add it to this file too 🙏
 
 ## Accessibility guidance from the wider industry
 
