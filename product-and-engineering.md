@@ -7,6 +7,7 @@ The resources in this list are extremely useful for contributors to the Guardian
 - [Source accessibility guidelines for developers](https://theguardian.design/2a1e5182b/p/6691bb-accessibility) (article) - Accessibility guidelines for The Guardian's Design System
 - [Web Content Accessibility Guidelines (WCAG) 2.1 Primer](https://alphagov.github.io/wcag-primer/#wcag-2-1-overview) (website) - A digestible form of the W3C's accessibility guidelines
 - [The Guardian's accessibility engineering recommendations](https://github.com/guardian/recommendations/blob/master/accessibility.md) (article)
+- [Accessible presentations](https://docs.google.com/presentation/d/1IFdaMrxJydajZn0e_3pqz1eX2r6QxoOpIJx_vkDstgM/) (slide deck)
 
 ## Testing
 
