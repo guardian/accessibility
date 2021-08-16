@@ -1,9 +1,11 @@
 # Physical
 
-In the UK around 7 million people have a physical impairment that limits their
+In the UK around [7 million people have a physical impairment][impairment-types] that limits their
 movement. A further 3.5 million people have a disability that impacts their
 dexterity. Examples of conditions that limit movement include Cerebral Palsy,
 Parkinson's and Repetitive Strain Injury.
+
+[impairment-types](https://www.gov.uk/government/statistics/family-resources-survey-financial-year-2019-to-2020/family-resources-survey-financial-year-2019-to-2020#impairment-types-reported-by-disabled-people-2017-to-2018-2018-to-2019-and-2019-to-2020-united-kingdom)
 
 ## Keyboard
 
@@ -26,7 +28,7 @@ Commonly used controls include:
 - It should be immediately obvious which element is currently in focus. Ensure
   the focus state of each interactive element is clear.
 - If there are a lot of navigation controls at the top of the page, provide a
-  [skip link](skip-link) that takes the user to the main content.
+  [skip link][skip-link] that takes the user to the main content.
 
 _Note:_ if you are using Firefox on Mac you need to make some changes to [make tab behaviour work as expected](https://stackoverflow.com/questions/11704828/how-to-allow-keyboard-focus-of-links-in-firefox.).
 
@@ -45,12 +47,13 @@ as people with cognitive and learning difficulties.
 There are several types of switches that accommodate different needs:
 
 - Sip-and-puff switches are "clicked" by sipping and puffing into a straw
-- Button switches can be activated using the hand, foot or head. It is
-  possible to turn your keyboard into a button switch by adjusting your
-  computer's accessibility settings.
+- Button switches can be activated using the hand, foot or head.
 - Camera switches can be activated when tilting the head into a camera
 - Eye tracking controls can measure where a user is looking, or track the motion
   of an eye relative to the head.
+
+_Note: It is possible to turn your keyboard into a button switch by [adjusting
+your computer's accessibility settings](https://support.apple.com/en-gb/guide/accessibility-mac/mh43182/mac)._
 
 ### Guidance
 
@@ -76,7 +79,6 @@ controls. There are also some unique considerations for switch users:
 
 - [I used a switch control for a day](https://www.24a11y.com/2018/i-used-a-switch-control-for-a-day/)
 - [Single switch usability](https://www.youtube.com/watch?v=UKVgfiIqZUM&t=63s)
-- [Activating switch controls on a Mac](https://support.apple.com/en-gb/guide/accessibility-mac/mh43182/mac))
 
 ## Speech input
 
@@ -92,4 +94,4 @@ speech input. There are also some more nuanced design decisions to consider:
   attempts to dictate some text into a field for instance, they might
   inadvertently activate several shortcut keys.
 - Speech input users activate links by reading the link text. Try to ensure
-  link text is unique, rather than a series of "Read more" links.
+  link text is unique, rather than a series of _Read more_ links.

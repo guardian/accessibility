@@ -1,3 +1,5 @@
+# Assistive technologies
+
 There is a variety of assistive technologies that help people with disabilities
 navigate the digital space. It is important to keep these technologies in mind
 when designing and developing digital products. To help with this, it is worth
@@ -10,4 +12,4 @@ assistive technologies.
 We will explore assistive technologies commonly used by people with disabilities
 in the following sections:
 
-- [Physical](./physical.md)
+- [Physical](./01-physical.md)
