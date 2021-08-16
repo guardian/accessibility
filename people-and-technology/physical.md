@@ -1,7 +1,7 @@
 # Physical
 
-In the UK around 7 million people have a physical impariment that limits their
-movement. A further 3.5 million people have adisability that impacts their
+In the UK around 7 million people have a physical impairment that limits their
+movement. A further 3.5 million people have a disability that impacts their
 dexterity. Examples of conditions that limit movement include Cerebral Palsy,
 Parkinson's and Repetitive Strain Injury.
 
@@ -55,7 +55,7 @@ There are several types of switches that accommodate different needs:
 ### Guidance
 
 Much of the guidance that is true for keyboard controls is also true for switch
-controls. There are also some time-based considerations:
+controls. There are also some unique considerations for switch users:
 
 - Typing using switches is much slower than using a keyboard, with users
   typically entering between 1 and 2 words per minute. Consider implementing
@@ -69,6 +69,8 @@ controls. There are also some time-based considerations:
   browser crashes, or the user accidentally closes a tab or hits the Back
   button, it can be very frustrating to lose all that typing. A feature that
   automatically saves work in progress can save a lot of time.
+- People are likely to make typos when using switches. Make it easy for users
+  to go back and correct mistakes on forms.
 
 ### Further resources
 
