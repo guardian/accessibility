@@ -5,7 +5,7 @@ movement. A further 3.5 million people have a disability that impacts their
 dexterity. Examples of conditions that limit movement include Cerebral Palsy,
 Parkinson's and Repetitive Strain Injury.
 
-[impairment-types](https://www.gov.uk/government/statistics/family-resources-survey-financial-year-2019-to-2020/family-resources-survey-financial-year-2019-to-2020#impairment-types-reported-by-disabled-people-2017-to-2018-2018-to-2019-and-2019-to-2020-united-kingdom)
+[impairment-types]: https://www.gov.uk/government/statistics/family-resources-survey-financial-year-2019-to-2020/family-resources-survey-financial-year-2019-to-2020#impairment-types-reported-by-disabled-people-2017-to-2018-2018-to-2019-and-2019-to-2020-united-kingdom
 
 ## Keyboard
 
@@ -32,7 +32,7 @@ Commonly used controls include:
 
 _Note:_ if you are using Firefox on Mac you need to make some changes to [make tab behaviour work as expected](https://stackoverflow.com/questions/11704828/how-to-allow-keyboard-focus-of-links-in-firefox.).
 
-[skip-link](https://design-system.service.gov.uk/components/skip-link/)
+[skip-link]: https://design-system.service.gov.uk/components/skip-link/
 
 ### Further resources
 
