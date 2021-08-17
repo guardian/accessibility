@@ -17,7 +17,7 @@ The goal of these guidelines is to support the development of tools which are us
 1. **Start with source components.** Where possible, we should try to use existing Source components, because they have already been designed with accessibility in mind. 
 However, a user interface for an Editorial Tool requires different solutions to our core news website - specifically; space is at a premium because we need to fit a lot of functionality into a small area, in the same way that a desktop application would. 
 Therefore, we should modify existing components<sup>[1](#appendix-modifying-source-components)</sup> to work in our context (i.e. less padding, smaller more concise interfaces), while meeting our own subset of accessibility guidelines<sup>[2](#our-accessibility-checklist).
-2. If creating a custom component or modifying a Source component - **it must meet our minimum accessibility requirements** - an abridged checklist of the most relevant Web Content Accessibility Guidelines (WCAG).
+2. If creating a custom component or modifying a Source component - **it must meet our minimum accessibility requirements** - an abridged checklist of level AA of the [Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa).
 
 ## Minimum accessibility requirements
 We have chosen not to simply ask developers to follow WCAG – the guidelines are long, quite abstract, and not all relevant to the domain of Editorial Tools. Additionally, asking developers to know them in full creates a time burden that decreases the chance of compliance. Instead we ask for Editorial Tools developers to follow a managed subset of WCAG guidelines, which will be included as a checklist in PR templates.
