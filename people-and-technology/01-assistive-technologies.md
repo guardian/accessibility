@@ -12,4 +12,4 @@ assistive technologies.
 We will explore assistive technologies commonly used by people with disabilities
 in the following sections:
 
-- [Physical](./01-physical.md)
+- [Physical](./02-physical.md)
