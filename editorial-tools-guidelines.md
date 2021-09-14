@@ -44,7 +44,7 @@ The focus ring is usually rendered as a thin blue outline, visible around focuse
 
 | Default browser focus ring | Source Focus Halo |
 | --- | --- |
-|  |  |
+| <img width="368" alt="Screenshot 2021-09-14 at 14 40 26" src="https://user-images.githubusercontent.com/34686302/133289996-990b0c18-1ba6-40ea-8eae-4b142e05d7a7.png"> | <img width="463" alt="Screenshot 2021-09-14 at 16 33 38" src="https://user-images.githubusercontent.com/34686302/133290048-4f7c74f1-c4da-4da8-8702-be59cc07f299.png"> |
 
 It's also a [criterion](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html) for the Web Content Accessibility Guidelines (WCAG) - the primary international standard for accessibility.
 
