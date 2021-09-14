@@ -30,7 +30,7 @@ This subset is based on the WCAG guidelines most relevant to Editorial Tools use
 - Ensure the component is fully functional via screen reader - especially by making sure non-text content has a text equivalent. [[WCAG SC 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)]
 - Don’t use colour as the only visual means of conveying information [[WCAG SC 1.4.1](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)]
 - Ensure text and icons in active components have a contrast ratio of at least 4.5:1 compared to their background ([check here](https://webaim.org/resources/contrastchecker/)). [[WCAG SC 1.4.3](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html)]
-- Ensure the focus ring remains functional (with browser default styling), or is replaced with the Source focus halo. [[WCAG SC 1.4.13](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html)]
+- Ensure the focus ring remains functional (with browser default styling), or is replaced with the [Source focus halo](https://github.com/guardian/source/blob/eab592ab9c1cc4c69128decb8149de536435105b/src/core/foundations/README.md#focus-halo). [[WCAG SC 1.4.13](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html)]
 - Ensure that no content flashes more than three times in any one second period in order to reduce the risk of inducing a seizure. [[WCAG SC 2.3.1](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html)]
 - Use relevant semantic HTML elements where possible rather than exclusively, for example, generic `div` and `span` elements. [[WCAG 1.3.1](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)]
 
@@ -48,7 +48,7 @@ The focus ring is usually rendered as a thin blue outline, visible around focuse
 
 It's also a [criterion](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html) for the Web Content Accessibility Guidelines (WCAG) - the primary international standard for accessibility.
 
-It is good to use consistent styling across a page for the focus ring, because doing so communicates more clearly which element is focused. We either preserve the default browser focus ring, or else use the Source Focus halo.
+It is good to use consistent styling across a page for the focus ring, because doing so communicates more clearly which element is focused. We either preserve the default browser focus ring, or else use the [Source Focus Halo](https://github.com/guardian/source/blob/eab592ab9c1cc4c69128decb8149de536435105b/src/core/foundations/README.md#focus-halo).
 
 ### Appendix: Semantic HTML
 
