@@ -56,6 +56,10 @@ Semantic HTML is the use of specific HTML tags to convey meaning to the browser.
 
 For example, we use an `<h1>` tag for a top level heading, a `<p>` tag for a paragraph of text, or a `<nav>` for a navigation bar (and there are [many more](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)). In terms of style, we could use a `<div>` or a `<span>` for all of these - overriding the default styles provided by the browser.
 
-But these tags provide *semantic* cues, as well as styles. Why is this helpful? Among other reasons, screen readers can use them as a signpost to help visually impaired users navigate a page. For example, text in an emphasis tag (`<em>`) is stressed by some screen readers, while the `<i>` tag isn't. 
+But these tags provide *semantic* cues, as well as styles. Why is this helpful? Among other reasons, screen readers can use them as a signpost to help visually impaired users navigate a page. For example, text in an emphasis tag (`<em>`) is stressed by some screen readers, while the `<i>` tag isn't.
+  
+Semantic elements also add keyboard functionality to controls, for instance <button> elements may be activated by pressing Enter or Space. If you substituted a <button> for a styled <div>, you'd manually have to add a click event listener as well as keydown listeners.
+
+While it's possible to replicate a button using a div and a bunch of JavaScript, it's a lot of work and it's easy to forget something.
 
 Beyond accessibility, semantic html can make it easier for our developers to parse code, and distinguish layout components from those containing meaningful content.
