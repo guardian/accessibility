@@ -30,10 +30,36 @@ This subset is based on the WCAG guidelines most relevant to Editorial Tools use
 - Ensure the component is fully functional via screen reader - especially by making sure non-text content has a text equivalent. [[WCAG SC 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)]
 - Don’t use colour as the only visual means of conveying information [[WCAG SC 1.4.1](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)]
 - Ensure text and icons in active components have a contrast ratio of at least 4.5:1 compared to their background ([check here](https://webaim.org/resources/contrastchecker/)). [[WCAG SC 1.4.3](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html)]
-- Ensure the focus ring remains functional (with browser default styling), or is replaced with [the Source focus halo](https://theguardian.design/2a1e5182b/p/300696-). [[WCAG SC 1.4.13](https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html)]
+- Ensure the focus ring remains functional (with browser default styling), or is replaced with the [Source focus halo](https://github.com/guardian/source/blob/eab592ab9c1cc4c69128decb8149de536435105b/src/core/foundations/README.md#focus-halo). [[WCAG SC 1.4.13](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html)]
 - Ensure that no content flashes more than three times in any one second period in order to reduce the risk of inducing a seizure. [[WCAG SC 2.3.1](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html)]
 - Use relevant semantic HTML elements where possible rather than exclusively, for example, generic `div` and `span` elements. [[WCAG 1.3.1](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)]
 
 ### Appendix: Modifying Source components:
 
 There are a number of ways to [override styles](https://github.com/guardian/source/blob/main/docs/07-overriding-styles.md) from Source. A good option is to use the cssOverrides prop which is available on every component. Create a wrapper around the component that you want to customise, and use the wrapper to apply the styles. If you keep the API of the wrapper the same as the Source component, you can spread all the props.
+
+### Appendix: The Focus Ring:
+
+The focus ring is usually rendered as a thin blue outline, visible around focused elements when users navigate via keyboard or using other assistive hardware. It is necessary because it shows a user which page element is focused at any given time.
+
+| Default browser focus ring | Source Focus Halo |
+| --- | --- |
+| <img width="368" alt="Screenshot 2021-09-14 at 14 40 26" src="https://user-images.githubusercontent.com/34686302/133289996-990b0c18-1ba6-40ea-8eae-4b142e05d7a7.png"> | <img width="463" alt="Screenshot 2021-09-14 at 16 33 38" src="https://user-images.githubusercontent.com/34686302/133290048-4f7c74f1-c4da-4da8-8702-be59cc07f299.png"> |
+
+It's also a [criterion](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html) for the Web Content Accessibility Guidelines (WCAG) - the primary international standard for accessibility.
+
+It is good to use consistent styling across a page for the focus ring, because doing so communicates more clearly which element is focused. We either preserve the default browser focus ring, or else use the [Source Focus Halo](https://github.com/guardian/source/blob/eab592ab9c1cc4c69128decb8149de536435105b/src/core/foundations/README.md#focus-halo).
+
+### Appendix: Semantic HTML
+
+Semantic HTML is the use of specific HTML tags to convey meaning to the browser.
+
+For example, we use an `<h1>` tag for a top level heading, a `<p>` tag for a paragraph of text, or a `<nav>` for a navigation bar (and there are [many more](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)). In terms of style, we could use a `<div>` or a `<span>` for all of these - overriding the default styles provided by the browser.
+
+But these tags provide *semantic* cues, as well as styles. Why is this helpful? Among other reasons, screen readers can use them as a signpost to help visually impaired users navigate a page. For example, text in an emphasis tag (`<em>`) is stressed by some screen readers, while the `<i>` tag isn't.
+  
+Semantic elements also add keyboard functionality to controls, for instance `<button>` elements may be activated by pressing Enter or Space. If you substituted a `<button>` for a styled `<div>`, you'd manually have to add a click event listener as well as keydown listeners.
+
+While it's possible to replicate a button using a div and a bunch of JavaScript, it's a lot of work and it's easy to forget something.
+
+Beyond accessibility, semantic html can make it easier for our developers to parse code, and distinguish layout components from those containing meaningful content.
