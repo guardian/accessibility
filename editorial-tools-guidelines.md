@@ -58,7 +58,7 @@ For example, we use an `<h1>` tag for a top level heading, a `<p>` tag for a par
 
 But these tags provide *semantic* cues, as well as styles. Why is this helpful? Among other reasons, screen readers can use them as a signpost to help visually impaired users navigate a page. For example, text in an emphasis tag (`<em>`) is stressed by some screen readers, while the `<i>` tag isn't.
   
-Semantic elements also add keyboard functionality to controls, for instance <button> elements may be activated by pressing Enter or Space. If you substituted a <button> for a styled <div>, you'd manually have to add a click event listener as well as keydown listeners.
+Semantic elements also add keyboard functionality to controls, for instance `<button>` elements may be activated by pressing Enter or Space. If you substituted a `<button>` for a styled `<div>`, you'd manually have to add a click event listener as well as keydown listeners.
 
 While it's possible to replicate a button using a div and a bunch of JavaScript, it's a lot of work and it's easy to forget something.
 
