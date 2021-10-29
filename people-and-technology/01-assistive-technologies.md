@@ -13,3 +13,4 @@ We will explore assistive technologies commonly used by people with disabilities
 in the following sections:
 
 - [Physical](./02-physical.md)
+- [Visual](./03-visual.md)
