@@ -6,14 +6,16 @@ We define accessibility as:
 
 ## Getting Started With Accessibility
 
-- [What do we mean by ‘accessibility’?](#what-do-we-mean-by-accessibility)
-- [What access do we need to provide?](#what-access-do-we-need-to-provide)
-  - [Screen readers](#screen-readers)
-  - [Magnification](#magnification)
-  - [Keyboard accessibility](#keyboard-accessibility)
-  - [Use of colour](#use-of-colour)
-- [How do we do it?](#how-do-we-do-it)
-- [How can I find out more?](#how-can-i-find-out-more)
+- [Accessibility](#accessibility)
+  - [Getting Started With Accessibility](#getting-started-with-accessibility)
+    - [What do we mean by ‘accessibility’?](#what-do-we-mean-by-accessibility)
+    - [What access do we need to provide?](#what-access-do-we-need-to-provide)
+      - [Screen readers](#screen-readers)
+      - [Magnification](#magnification)
+      - [Keyboard accessibility](#keyboard-accessibility)
+      - [Use of colour](#use-of-colour)
+    - [How do we do it?](#how-do-we-do-it)
+    - [How can I find out more?](#how-can-i-find-out-more)
 
 This guide is intended to give you a basic understanding of what accessibility is, why it matters, and the fundamental things you need to know in order to build web pages and apps that are accessible to everyone.
 
@@ -53,4 +55,4 @@ Above all, the most important thing in accessibility is empathy. In the tech ind
 
 The [Supporting Resources document](supporting-resources.md) in this repo has a lot of great links to help you build a deeper understanding of topics around accessibility. We have a set of guidelines and suggested tools for developers in the [Product and Engineering document](product-and-engineering.md). You can also take a look at our resources and activities for [Global Accessibility Awareness Day](global-accessibility-awareness-day).
 
-To help build the skills you need to develop accessible websites, we recommend the [Web Accessibility course from Udacity](https://www.udacity.com/course/web-accessibility--ud891). You’ll need a good grasp of HTML, CSS and vanilla Javascript, but it doesn’t require you to use React or any other special libraries or tools.
+To help build the skills you need to develop accessible websites, we recommend this [course from the W3C on EdX (currently free to audit)](https://www.edx.org/course/web-accessibility-introduction). It's based on the W3C's [open curricula](https://www.w3.org/WAI/curricula/) and is aimed at developers, designers, project managers and more.
