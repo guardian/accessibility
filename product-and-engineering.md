@@ -4,14 +4,13 @@ The resources in this list are extremely useful for contributors to the Guardian
 
 ## Recommendations and guidelines
 
-- [Source accessibility guidelines for developers](https://theguardian.design/2a1e5182b/p/6691bb-accessibility) (article) - Accessibility guidelines for The Guardian's Design System
 - [Web Content Accessibility Guidelines (WCAG) 2.1 Primer](https://alphagov.github.io/wcag-primer/#wcag-2-1-overview) (website) - A digestible form of the W3C's accessibility guidelines
 - [The Guardian's accessibility engineering recommendations](https://github.com/guardian/recommendations/blob/master/accessibility.md) (article)
 - [Accessible presentations](https://docs.google.com/presentation/d/1IFdaMrxJydajZn0e_3pqz1eX2r6QxoOpIJx_vkDstgM/) (slide deck)
 
 ## Testing
 
-- [Accessibility checklist for pull requests](https://github.com/guardian/.github/blob/438dd01519772104ff1f7aa381c3377d2c350f71/PULL_REQUEST_TEMPLATE.md#accessibility) (code) - If your project overrides the default PR template, make sure to copy this into your custom template
+- [Accessibility checklist for pull requests](https://github.com/guardian/.github/blob/main/PULL_REQUEST_TEMPLATE.md#accessibility) (code) - If your project overrides the default PR template, make sure to copy this into your custom template
 
 ### Screen reader
 
